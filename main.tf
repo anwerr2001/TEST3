@@ -11,5 +11,5 @@ resource "aws_instance" "example" {
   vpc_security_group_ids = ["sg-0cf69f17137c3ebde"]
   subnet_id   = "subnet-0175c8240d3f9a986"
    tags = {
-      "Name" = "TEST-EC2-8"  }
+      "Name" = "TEST-EC2-9"  }
   }
